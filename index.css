@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom soft-blue variables */
+:root {
+  --soft-blue-1: #E9F5FF;
+  --soft-blue-2: #CFE9FF;
+  --accent-blue: #3B82F6;
+}
+
+html, body, #root {
+  height: 100%;
+}
+body {
+  background: white;
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
